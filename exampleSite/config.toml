@@ -50,49 +50,51 @@ URL = "about"
 weight = 1
 
 [[menu.main]]
-name = "course"
-URL = "course"
-weight = 2
-
-[[menu.main]]
 weight = 3
-name = "Pages"
+name = "Blog"
 hasChildren = true
 
   [[menu.main]]
-  parent = "Pages"
-  name = "teacher"
+  parent = "Blog"
+  name = "Christian Gaming Resources"
   URL = "teacher"
 
   [[menu.main]]
-  parent = "Pages"
-  name = "notice"
+  parent = "Blog"
+  name = "Game Reviews"
   URL = "notice"
 
   [[menu.main]]
-  parent = "Pages"
-  name = "event"
+  parent = "Blog"
+  name = "Guides"
   URL = "event"
 
   [[menu.main]]
-  parent = "Pages"
-  name = "scholarship"
+  parent = "Blog"
+  name = "Anotha one"
   URL = "scholarship"
 
   [[menu.main]]
-  parent = "Pages"
-  name = "research"
+  parent = "Blog"
+  name = "Anotha one"
   URL = "research"
   
-[[menu.main]]
-name = "blog"
-URL = "blog"
-weight = 4
   
 [[menu.main]]
-name = "Contact"
+name = "Contact Us"
 URL = "contact"
 weight = 5
+
+[[menu.main]]
+name = "Shop"
+URL = "course"
+weight = 2
+
+
+[[menu.main]]
+name = "Donate"
+URL = "course"
+weight = 2
 
 
 # footer menu
